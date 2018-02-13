@@ -18,16 +18,17 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   margin-top: 8px; 
+  margin-bottom: 15px;
 }
 
 #listeProjet h1{
-  color:#515151;
+  color:#8D8F93;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
 }
 
 #listeProjet p{
-  color:#242424;
+  color:#8D8F93;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
 }
@@ -64,8 +65,8 @@ a{
   /* justify-content: flex-end;
   align-items: flex-end; */
   height: 80px;
-  width: 100%;
-  margin-top:18px;
+  width: 1140px;
+  /* margin-top:18px; */
   border-bottom: 1px solid #C3C3C3;
   border-top: 1px solid #C3C3C3;
   z-index: 1000;
@@ -104,7 +105,7 @@ font-size: 12px;
 }
 
 #bandDiv{
-  margin-top: 74px;
+  margin-top: 71px;
   /* border: 3px solid violet; */
   /* justify-content: center;
   align-items: center; */
@@ -125,12 +126,15 @@ font-size: 12px;
   padding: 0px;
   width: 100%;
   background-color:#2D2D2D;
-  height: 600px;
+  height: 500px;
   
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 80px;
   color: #fff;
+  
+    background: linear-gradient(#2D2D2D, rgb(68, 68, 68));
+  
 
 }
 
@@ -155,10 +159,10 @@ footer{
   justify-content: space-around;
   /* flex-wrap: wrap; */
   align-items: center;
-  height: 1800px;
+  height: 2000px;
   background-color:#F6F6F6;
   padding: 0;
-  margin-top:80px;
+  /* margin-top:80px; */
  
 }
 
@@ -175,9 +179,18 @@ footer{
 
 #asos:hover{
   background-color:#C3C3C3;
+}
 
-  
+#websitePic{
+  width: 80px;
+}
 
+#todoPic{
+  width: 80px;
+}
+
+#gamePad1{
+  width: 90px;
 }
 
 #todoList{
@@ -228,8 +241,13 @@ footer{
 
 
 #competence{
-  height: 500px;
-  border: 3px solid blue;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ flex-basis:content;
+  height: 200px;
+  width: 800px;
+  /* border: 3px solid blue; */
 }
 
 #competence p{
@@ -241,8 +259,9 @@ footer{
 #competencePic{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-
+  justify-content: space-between;
+ /* border: 1px solid red; */
+ width: 800px;
 }
 
 #parcours{
@@ -253,6 +272,76 @@ footer{
 #contact{
   height: 500px;
   border: 3px solid blue;
+}
+
+#logoJquery{
+ width: 60px;
+height: 60px;
+/* border:1px solid red; */
+
+}
+#logoJquery:hover{
+  color:#006690;
+}
+
+#jquery{
+  /* border:1px solid black; */
+  margin-top: 6px;
+  width:70px;
+  height: 70px;
+}
+
+#logoMysql{
+  width: 70px;
+ height: 70px;
+ /* border:1px solid ; */
+
+ }
+ 
+ #mysql{
+   /* border:1px solid black; */
+   width:60px;
+   height: 60px;
+   margin-top: 8px;
+ }
+
+ #logoMysql:hover{
+   color:#006690;
+ }
+
+ 
+ #photoshop{
+   /* border:1px solid black; */
+   width:90px;
+   height: 90px;
+ }
+
+ #html:hover{
+   color:#F1662A;
+ }
+
+ #css:hover{
+  color:#33A9DC;
+}
+
+#javascript:hover{
+  color:#F9E500;
+}
+
+#vuejs:hover{
+  color:#41B883;
+}
+
+#php:hover{
+  color:#75A5CF;
+}
+
+#github:hover{
+  color:#856992;
+}
+
+#wordpress:hover{
+  color:#21759B;
 }
 
 
