@@ -316,6 +316,12 @@ height: 60px;
    height: 90px;
  }
 
+ #logoPhotoshop{
+  /* border:1px solid black; */
+  width:60px;
+  height: 60px;
+}
+
  #html:hover{
    color:#F1662A;
  }
