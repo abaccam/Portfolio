@@ -17,6 +17,6 @@ $('#headerFlex').removeClass("fixedTop");
 );
 
 $(window).scroll(function(){
-$("#bandDiv").css("opacity", 1 - $(window).scrollTop() / 550);
+$("#bandDiv").css("opacity", 1 - $(window).scrollTop() / 750);
 });
 
