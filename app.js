@@ -4,6 +4,7 @@ var positionElementInPage = $('#headerFlex').offset().top;
 $( window ).resize(function() {
 positionElementInPage = $('#headerFlex').offset().top;
 });
+
 $(window).scroll(
 function() {
 if ($(window).scrollTop() > positionElementInPage) {
@@ -19,4 +20,6 @@ $('#headerFlex').removeClass("fixedTop");
 $(window).scroll(function(){
 $("#bandDiv").css("opacity", 1 - $(window).scrollTop() / 750);
 });
+
+
 

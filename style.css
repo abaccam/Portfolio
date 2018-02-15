@@ -3,6 +3,7 @@ body{
   background-color:#F6F6F6 !important;
   /* border:5px solid red; */
 }
+
 .container-col{
   display:flex;
   flex-direction: column;
@@ -45,6 +46,7 @@ ul{
 
 a{
   text-decoration: none;
+  color:red;
 }
 
 #header{
@@ -127,15 +129,11 @@ font-size: 12px;
   width: 100%;
   background-color:#2D2D2D;
   height: 500px;
-  
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 80px;
   color: #fff;
-  
-    background: linear-gradient(#2D2D2D, rgb(68, 68, 68));
-  
-
+  background: linear-gradient(#2D2D2D, rgb(68, 68, 68));
 }
 
 #bandTitle{
@@ -167,7 +165,7 @@ footer{
 }
 
 #asos{
-  /* border: 3px solid blue; */
+  border: 1px solid rgba(167, 167, 167, 0.164);
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -175,6 +173,7 @@ footer{
   height: 300px;
   width: 900px;
   background-color:#EAE8E6;
+  opacity :1;
 }
 
 #asos:hover{
@@ -202,6 +201,8 @@ footer{
   height: 300px;
   width: 900px;
   background-color:#EAE8E6;
+  border: 1px solid rgba(167, 167, 167, 0.164);
+  
 }
 
 #jeu{
@@ -213,6 +214,8 @@ footer{
   height: 300px;
   width: 900px;
   background-color:#EAE8E6;
+  border: 1px solid rgba(167, 167, 167, 0.164);
+  
 }
 
 #blog{
@@ -224,6 +227,8 @@ footer{
   height: 300px;
   width: 900px;
   background-color:#EAE8E6;
+  border: 1px solid rgba(167, 167, 167, 0.164);
+  
 }
 
 #wordPress{
@@ -235,12 +240,11 @@ footer{
   height: 300px;
   width: 900px;
   background-color:#EAE8E6;
+  border: 1px solid rgba(167, 167, 167, 0.164);
+  
 }
 
-
-
-
-#competence{
+#competence1{
  display:flex;
  justify-content: center;
  align-items: center;
@@ -250,7 +254,7 @@ footer{
   /* border: 3px solid blue; */
 }
 
-#competence p{
+#competence1 p{
   
   color:black;
   font-size: 12px;
@@ -265,14 +269,59 @@ footer{
 }
 
 #parcours{
+  /* border: 3px solid blue; */
+  height: 80px;
+}
+#parcours1{
   height: 500px;
   border: 3px solid red;
+
 }
 
 #contact{
-  height: 500px;
-  border: 3px solid blue;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  /* width: 100%; */
+  /* border: 3px solid blue; */
+  /* background-color: #2D2D2D; */
+  color: #EAE8E6;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
+
+#contact p {
+  font-size:18px;
+  font-style: italic;
+}
+
+#contactIcon a{
+  color:white;
+}
+
+#contactFlex{
+display:flex;  
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 300px;
+background-color: #2D2D2D;
+}
+
+#contactIcon{
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  width: 70px;
+}
+
+
+#linkedin:hover{
+  color:#007AB6;
+}
+
 
 #logoJquery{
  width: 60px;
@@ -348,6 +397,11 @@ height: 60px;
 
 #wordpress:hover{
   color:#21759B;
+}
+
+li a:hover{
+  text-decoration: none;
+  font-size: 15px;
 }
 
 
