@@ -179,17 +179,37 @@ footer{
 #asos:hover{
   background-color:#C3C3C3;
 }
+#todoList:hover{
+  background-color:#C3C3C3;
+}
+#jeu:hover{
+  background-color:#C3C3C3;
+}
+#blog:hover{
+  background-color:#C3C3C3;
+}
+#wordPress:hover{
+  background-color:#C3C3C3;
+}
+
 
 #websitePic{
-  width: 80px;
+  color:#FF666D;
 }
 
 #todoPic{
-  width: 80px;
+  color:#FF666D;
 }
 
 #gamePad1{
-  width: 90px;
+  color:#FF666D;
+}
+
+#blogPic{
+  color:#FF666D;
+}
+#wordpressPic{
+  color:#FF666D;
 }
 
 #todoList{
@@ -273,9 +293,9 @@ footer{
   height: 80px;
 }
 #parcours1{
-  height: 500px;
-  border: 3px solid red;
-
+  height: 300px;
+  /* border: 3px solid red; */
+  text-align: center;
 }
 
 #contact{
