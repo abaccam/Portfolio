@@ -1,3 +1,54 @@
+@media screen and (max-width: 601px) {
+  
+  /* NAV HEADER MEDIA */
+    #headerFlex {
+      display: none;
+    }
+    div#listeProjet{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    
+    div#competence1 {
+      width: 100%;
+    }
+    div#competencePic{
+      display: flex;
+      flex-wrap: wrap;
+
+    }
+
+    div#parcours1 p{
+      font-size: 15px;
+    }
+
+    div#contactFlex {
+      height:150px;
+    }
+
+    #competence {
+      display: none;
+    }
+    #parcours {
+      display: none;
+    }
+
+    div#listeProjet{
+      height:2000px;
+    }
+  }
+
+
+
+
+
+
+
+
+
 body{
   margin: 0px;
   background-color:#F6F6F6 !important;
@@ -25,6 +76,10 @@ body{
   font-size: 20px;
   margin-top: 8px; 
   margin-bottom: 15px;
+}
+
+#name h1 {
+  text-align: center;
 }
 
 #listeProjet h1{
@@ -63,8 +118,10 @@ a{
   height: 80px;
   margin-top: 130px;
   /* border-top: 1px solid #EAE8E6; */
-  
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #headerFlex{
@@ -162,7 +219,7 @@ footer{
   justify-content: space-around;
   /* flex-wrap: wrap; */
   align-items: center;
-  height: 2000px;
+  height: 3000px;
   background-color:#F6F6F6;
   padding: 0;
   /* margin-top:80px; */
@@ -277,7 +334,7 @@ footer{
  justify-content: center;
  align-items: center;
  flex-basis:content;
-  height: 200px;
+  height: 150px;
   width: 800px;
   /* border: 3px solid blue; */
 }
@@ -298,7 +355,7 @@ footer{
 
 #parcours{
   /* border: 3px solid blue; */
-  height: 80px;
+  height: 20px;
 }
 #parcours1{
   height: 300px;
@@ -336,6 +393,7 @@ justify-content: center;
 align-items: center;
 height: 300px;
 background-color: #2D2D2D;
+width: 100%;
 }
 
 #contactIcon{
