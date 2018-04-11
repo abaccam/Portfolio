@@ -5,37 +5,72 @@
       display: none;
     }
 
-    div#listeProjet.container-col{
-      display:flex;
-      flex-direction: column;
-      /* align-items: center; */
-      /* justify-content: space-around; */
-      border:1px solid red;
+    div#name h1 {
+      font-size: 25px;
+    }
+
+    p#bandTitle {
+      font-size: 35px;
+    }
+
+  /* PROJETS */
+    div#listeProjet.container-col {
       width: 95%;
     }
 
+ /* COMPETENCES */
     div#competence1 {
       width: 100%;
+      height: 100%;
+      margin-top: 25px;
     }
-    div#competencePic{
+
+    div#competencePic {
       display: flex;
       flex-wrap: wrap;
-
     }
 
-    div#parcours1 p{
-      font-size: 15px;
+ /* PARCOURS */
+    div#parcours1 p {
+      font-size: 12px;
     }
 
+    .parcoursA {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 25px;
+      height: 850px;
+    }
+    
+    #parcours {
+      display: none;
+    }
+
+    div#parcours1 h1 {
+      font-size: 25px;
+    }
+    
+ /* CONTACT */
     div#contactFlex {
-      /* height:150px; */
+    z-index: 2;
     }
+
+   
 
     #competence {
       display: none;
     }
-    #parcours {
-      display: none;
+
+    
+
+    div#contact div h1 {
+      font-size: 25px;
+    }
+
+    div#contact div p{
+      font-size: 15px;
     }
 
     footer {
@@ -229,28 +264,40 @@ div.allSection{
 }
 
 #listeProjet{
-  /* border: 5px solid green; */
+  border: 5px solid green;
   display:flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  flex-grow: 2;
-  height: 2000px;
+  height: 100%;
   width: 80%;
   background-color:#F6F6F6;
   padding: 0; 
 }
 
+.divTest {
+  border: 1px solid blue;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.divTest div {
+  height: 300px;
+}
 #asos{
   border: 1px solid rgba(167, 167, 167, 0.164);
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  /* height: 300px; */
   /* width: 100%; */
   background-color:#EAE8E6;
   opacity :1;
+  margin-top: 50px;
+  text-align: center;
 }
 
 #asos:hover{
@@ -298,11 +345,12 @@ div.allSection{
   justify-content: center;
   align-items: center;
   /* border: 3px solid blue; */
-  height: 300px;
+  /* height: 300px; */
   /* width: 900px; */
   background-color:#EAE8E6;
   border: 1px solid rgba(167, 167, 167, 0.164);
-  
+  margin-top: 50px;
+
 }
 
 #jeu{
@@ -311,11 +359,13 @@ div.allSection{
   justify-content: center;
   align-items: center;
   /* border: 3px solid blue; */
-  height: 300px;
+  /* height: 300px; */
   /* width: 900px; */
   background-color:#EAE8E6;
   border: 1px solid rgba(167, 167, 167, 0.164);
-  
+  margin-top: 50px;
+  text-align: center;
+
 }
 
 #blog{
@@ -324,11 +374,13 @@ div.allSection{
   justify-content: center;
   align-items: center;
   /* border: 3px solid blue; */
-  height: 300px;
+  /* height: 300px; */
   /* width: 900px; */
   background-color:#EAE8E6;
   border: 1px solid rgba(167, 167, 167, 0.164);
-  
+  margin-top: 50px;
+  text-align: center;
+
 }
 
 #wordPress{
@@ -337,11 +389,16 @@ div.allSection{
   justify-content: center;
   align-items: center;
   /* border: 3px solid blue; */
-  height: 300px;
+  /* height: 300px; */
   /* width: 900px; */
   background-color:#EAE8E6;
   border: 1px solid rgba(167, 167, 167, 0.164);
-  
+  margin-top: 50px;
+
+}
+
+#competence {
+  margin-bottom: 80px;
 }
 
 #competence1{
@@ -368,9 +425,12 @@ div.allSection{
   width: 80%;
 }
 
+
+
 #parcours{
   /* border: 3px solid blue; */
   height: 20px;
+  margin-bottom: 80px;
 }
 #parcours1{
   height: 300px;
