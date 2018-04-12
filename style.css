@@ -1,6 +1,11 @@
 @media screen and (max-width: 601px) {
   
   /* NAV HEADER MEDIA */
+
+  nav#mainNav {
+    display: block;
+  }
+
     #headerFlex {
       display: none;
     }
@@ -11,6 +16,14 @@
 
     p#bandTitle {
       font-size: 35px;
+    }
+
+    /* button.bg-primary {
+      background-color: #FF666D !important;
+    } */
+
+    ul li a {
+      color: white;
     }
 
   /* PROJETS */
@@ -45,7 +58,8 @@
     }
     
     #parcours {
-      display: none;
+      /* display: none; */
+      height: 0px;
     }
 
     div#parcours1 h1 {
@@ -54,11 +68,13 @@
 
  /* CONTACT */
     div#contactFlex {
-    z-index: 2;
+    /* z-index: 2; */
+    height: 200px;;
     }
 
     #competence {
-      display: none;
+      /* display: none; */
+      height: 0px;
     }
 
     div#contact div h1 {
@@ -156,6 +172,10 @@ a {
   border-top: 1px solid #C3C3C3;
   z-index: 1000;
   background-color: #F6F6F6;
+}
+
+#mainNav {
+  display: none;
 }
 
 .fixedTop {
